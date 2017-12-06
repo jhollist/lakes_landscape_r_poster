@@ -28,11 +28,17 @@ tasks.  Our research group has also made the choice to invest in the use of R
 for our work.  In this poster we share examples of how we use R to help build an
 open foundation for our work on understanding how water quality, landscapes, and 
 limnological processes interact to control cyanobacteria blooms. In particular 
-we discuss three R packages - `lakemorpho`, `elevatr`, and `goastscape` - that 
-we have developed to facilitate our research. These packages provide the ability 
-to more easily reproduce calculation of lake morphometry metrics, gain access to
-elevation data, and easily and repeatedly summarize key landscape metrics. While
-these tools have direct applications to landscape and limnological research, 
-they are more broadly concevied such that they can benefit the larger landscape
-ecology community and help facilitate openness and reproducibility of a variety
-of landscape ecological research efforts.
+we discuss three R packages - `lakemorpho`, `elevatr`, and `goatscape` - that 
+we have developed to facilitate our research. The `lakemorpho` package provides
+the ability to more easily reproduce calculation of lake morphometry metrics.
+One of the data requirements for `lakemorpho` is access to elevation data. In 
+response to this need, we developed `elevatr` to provide access to digital 
+elevation models and point elevation estimates for anywhere in the world. 
+Lastly, we are developing `goatscape` to provide the ability to reproducibly 
+summarize key landscape metrics within an input landscape polygon. We will 
+illustrate the use of these packages with examples form our own research on 
+landscape and water quality drivers of cyanobacteria. While these tools have 
+direct applications to landscape and limnological research, they are more 
+broadly concevied such that they can benefit the larger landscape ecology 
+community and help facilitate openness and reproducibility of a variety of 
+landscape ecological research efforts. 
